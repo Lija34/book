@@ -1,0 +1,253 @@
+index.html@@ -0,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Reading</title>
+    <!-- Initialize Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #333"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: #f84464 !important; font-weight: bold"
+          >bookDays</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Stream</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Plays</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff !important"
+                >Activities</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              type="search"
+              class="form-control me-2"
+              placeholder="Search for books"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4">
+      <div id="movieCards" class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/5e08337a5096316889b19963/6e070653-24ab-4340-b2a6-0a805af61b4e/It+Starts+With+Us.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">It starts with us</h5>
+              <p class="card-text">Romance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://msmagazine.com/wp-content/uploads/2022/09/91OT29EvAXL-679x1024.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">It ends with us</h5>
+              <p class="card-text">Romance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://cdn.kobo.com/book-images/92a80c8c-dda2-45e3-9c87-0030ef0cd040/1200/1200/False/twisted-games-10.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Twisted Games</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://i.pinimg.com/736x/52/8a/ec/528aecd18c377b59d5ea0121b37e27c4.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Love Hypothesis</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://images.thalia.media/07/-/c9115952d4774fea8dacae48fdd1db5f/king-of-wrath-taschenbuch-ana-huang.jpeg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">King of Wrath</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://covers.shakespeareandcompany.com/97803494/9780349434285.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Twisted Lies</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmh-xOPXzQYEVjYzIstaMTOW9BdQE5wYKU_IgInhwWUtFsf9E1vkpGqe4q0LgXJlDv-iS_NIUDo_yLKNdzz05FIl1drVAkkNLSStm2OLR_Xrnj_-W06m0cZ3U4CBnTEOHFAJOJmWY_oUfMdc7ep6SWu4vuu32ab5lyxIyvMoZuzG80EzZPf-OqehFL8A/s2560/Haunting%20Adeline.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Haunting Adeline</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card" style="cursor: pointer">
+            <img
+              src="https://cdn.kobo.com/book-images/5967e7fb-edc8-403b-9989-f8aab7b3ed89/1200/1200/False/the-alchemist-38.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alchemist</h5>
+              <p class="card-text">Drama</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted mt-4">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        </section>
+
+        <!-- Section: Links -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            bookDays
+                        </h6>
+                        <p>
+                            The website for book lovers who are present everywhere around the world
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Popular Books
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Latest Releases</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Upcoming Books</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Top Rated</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Now Showing</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+                        <p>123 Movie Lane, Cinema City, NY 10012, US</p>
+                        <p>
+                            support@bookDays.com
+                        </p>
+                        <p>+1 234 567 8900</p>
+                        <p>+1 234 567 8901</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 bookDays:
+            <a class="text-reset fw-bold" href="https://www.bookDays.com/">bookDays.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+  </body>
+</html>
